@@ -1,0 +1,24 @@
+<mvc:View xmlns:core="sap.ui.core"
+          xmlns:mvc="sap.ui.core.mvc"
+          xmlns="sap.m"
+          controllerName="intechpro.com.br.ztestcad.controller.CadastroClientes"
+          xmlns:html="http://www.w3.org/1999/xhtml">
+         
+    <Page id="_IDGenPage1" title="Cadastro de Clientes" showNavButton="true" enableScrolling="false" navButtonPress="onNavBack"> 
+
+        <content>
+        
+        
+
+            <Input id="_IDGenInput1" value="{Nome}" placeholder="Nome:" />
+             <Input id="_IDGenInput2" value="{Sobrenome}" placeholder="Sobrenome:" />
+             <Input id="_IDGenInput3" value="{CPF}" placeholder="CPF:" />
+            <Input id="_IDGenInput4" value="{Endereco}" placeholder="Endereço:" />
+            <Input id="_IDGenInput5" value="{DatadeNascimento}" placeholder="Data de Nascimento:" />
+            <Input id="_IDGenInput6" value="{Idade}" placeholder="Idade:" />
+            <Button id="_IDGenButton1" text="Salvar" press="onSalvarPress" />
+            <Button id="_IDGenButton2" text="Editar" press="onEditarPress" />
+            <Button id="_IDGenButton3" text="Excluir" press="onExcluirPress" />
+        </content>
+    </Page>
+</mvc:View>
